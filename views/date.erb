@@ -10,8 +10,9 @@
     <%date = DateTime.now %>
     
     
+    
     <p>
-      <%= "#{date.month} #{date.day}, #{date.year}" %>
+      <%= "#{months[date.month-1]} #{date.day}, #{date.year}" %>
     </p>
   </body>
 </html>
