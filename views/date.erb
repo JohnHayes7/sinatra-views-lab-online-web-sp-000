@@ -14,7 +14,7 @@
     
     
     <p>
-      <%= "#{months[date.month-1]} #{date.day}, #{date.year}" %>
+      <%= "#{days[Time.now.wday]}, #{months[date.month-1]} #{date.day}, #{date.year}" %>
     </p>
   </body>
 </html>
